@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Montserrat-VariableFont_wght;
+  src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Fraunces-VariableFont_wght;
+  src: url(Fonts/Fraunces-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 700px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+  max-width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.inside {
+  padding: 30px;
+  height: 100%;
+}
+
+img {
+  align-items: center;
+  max-width: 50%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+h1 {
+  letter-spacing: 6px;
+  font-family: Montserrat-VariableFont_wght, sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: Fraunces-VariableFont_wght;
+  font-size: 35px;
+  font-weight: 700px;
+  width: 250px;
+}
+
+p {
+  font-family: Montserrat-VariableFont_wght, sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  width: 240px;
+  padding-bottom: 20px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.price-tag {
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces-VariableFont_wght;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.original-price {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  padding: 15px;
+}
+
+button {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border-color: white;
+  width: 250px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: rgb(39, 129, 39);
+  cursor: pointer;
+}
+
+.icon {
+  height: 60%;
+  width: 20%;
+  padding-right: 0px;
+}
+
+.cart {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
